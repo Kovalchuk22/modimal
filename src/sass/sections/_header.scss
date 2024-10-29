@@ -1,0 +1,128 @@
+.header__container {
+    width: 1224px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+.notification-bar {
+    width: 100%;
+    background-color: #5a6d57;
+    display: flex;
+    justify-content: center;
+
+    .notification-bar__text {
+        margin: 0;
+        padding-top: 8px;
+        padding-bottom: 7px;
+        color: #FFFFFF;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 14.63px;
+        letter-spacing: 0.800000011920929px;
+        text-align: center;
+    }
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    padding-top: 16px;
+    padding-bottom: 18px;
+}
+
+.header__logo-box {
+    text-align: center;
+}
+
+.header__logo-text {
+    color: #404040;
+    font-family: League Spartan;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.5px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-top: 8px;
+    margin: 0;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+.header__list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.header__nav-item {
+    color: #404040;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: center;
+    padding-right: 30px;
+
+    &:last-child {
+        padding-right: 0px;
+    }
+}
+.header__svg-box {
+    display: flex;
+    align-items: center;
+}
+.header__svg-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.header__svg-item {
+    padding-right: 26px;
+
+    &:last-child {
+        padding-right: 0px;
+    }
+}
+
+.search__svg {
+    width: 18px;
+    height: 18px;
+
+    .search__svg-path1 {
+    
+    }
+}
+
+.profile__svg {
+    width: 18px;
+    height: 18px;
+
+    .profile__svg-path1 {
+    }
+    .profile__svg-path2 {
+    }
+}
+.heart__svg {
+    width: 18px;
+    height: 18px;
+
+    .heart__svg-path1 {
+        fill: #FFFFFF;
+    }
+}
+.package__svg {
+    width: 18px;
+    height: 18px;
+
+    .package__svg-path1 {
+    }
+}
