@@ -1,0 +1,49 @@
+.seaction1__container {
+    width: 1224px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section1-backround {
+    background-image: url('../../img/backround-section12.png');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+
+.seaction1__title {
+    color: #0C0C0C;
+    font-family: Gill Sans MT;
+    font-size: 34px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 61.2px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+
+    &:first-child {
+        padding-top: 300px;
+    }
+
+    &:last-child {
+        padding-bottom: 27px;
+    }
+}
+
+.seaction1__button {
+    border: none;
+    width: 184px;
+    height: 40px;
+    background-color: white;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+}
+.seaction1__button-box {
+    padding-bottom: 103px;
+}
