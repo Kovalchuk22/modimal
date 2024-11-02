@@ -1,0 +1,197 @@
+.footer {
+    background: #404040;
+}
+
+.footer__container {
+    width: 1224px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__box1 {
+    width: 500px;
+}
+
+.footer__box1-joinclub {
+
+    p {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: left;
+        color: white;
+        margin: 0;
+        padding-bottom: 24px;
+    }
+}
+
+.footer__form {
+    height: 40px;
+    border: solid 2px white;
+    width: 500px;
+
+    button {
+        background-color: #404040;
+        height: 35px;
+        width: 40px;
+        border: none;
+        margin-bottom: 2px;
+    }
+}
+
+.path1-footer {
+    fill: white;
+}
+
+.svg1-footer {
+    width: 17px;
+    height: 17px;
+}
+
+.footer__form-input {
+    background-color: #404040;
+    width: 450px;
+    height: 33px;
+    padding-left: 16px;
+    border: none;
+
+    &:focus {
+        outline: none;
+        color: white;
+    }
+}
+
+.form-check {
+    padding-top: 16px;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    padding-bottom: 104px;
+}
+
+.input__footer-checkbox {
+    width: 20px;
+    height: 18px;
+    border: none;
+}
+
+.label__footer {
+    color: white;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.63px;
+    letter-spacing: 0.800000011920929px;
+    text-align: left;
+    padding-left: 7px;
+}
+
+.footer__svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+    margin-right: 16px;
+}
+
+.footer__svg-path1-f {
+    fill: #404040;
+}
+
+.footer__box1-svg {
+    padding-bottom: 43px;
+}
+
+.footer__box1-script {
+    display: flex;
+    align-items: center;
+
+    p {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21.6px;
+        text-align: left;
+        color: #CBCBCB;
+        margin: 0;
+        padding-left: 8px;
+    }
+
+    .svg-box1-script {
+        height: 24px;
+        width: 24px;
+        fill: #CBCBCB;
+    }
+}
+
+.footer__box2 {
+    display: flex;
+
+    p {
+        color: white;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: left;
+
+    }
+
+    li {
+        color: rgba(255, 255, 255, 0.644);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32.4px;
+        text-align: left;
+    }
+    ul {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+}
+
+.footer__box2-con1 {
+    padding-right: 24px;
+}
+
+.footer__box2-list {
+    margin: 0;
+    padding: 0;
+}
+
+.footer__box2-con2 {
+    padding-right: 24px;
+}
+
+.footer__box2-con3 {
+    padding-right: 60px;
+}
+.footer__container {
+    position: relative;
+}
+.footer__box2-con3-svg {
+    position: absolute;
+    right: 60px;
+    bottom: 2px;
+    height: 120px; 
+}
+.div-svg-footer {
+    background: #5A6D57;
+    width: 56px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__box2-con3-svg-svg {
+    fill: white;
+    width: 24px;
+    height: 24px;
+}
+.footer__box1, .footer__box2 {
+    padding-top: 52px;
+}
