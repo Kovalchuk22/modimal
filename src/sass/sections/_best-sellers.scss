@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+.container {
+    width: 1224px;
+    margin: 0 auto;
+}
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -37,10 +42,13 @@ body {
 }
 
 .product-card {
-    padding: 20px;
+    padding-right: 20px;
     text-align: center;
     position: relative;
 
+    &:last-child {
+        padding-right: 0px;
+    }
 }
 
 
@@ -64,15 +72,6 @@ body {
 
 }
 
-.price {
-    color: #333;
-    margin-top: 10px;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 22.4px;
-    text-align: right;
-}
 
 .color-options {
     display: flex;
@@ -82,42 +81,98 @@ body {
 }
 
 .color-circle {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
-    border: 1px solid #ccc;
+    border: none;
 }
-
-.heart-icon {
+.heart-icon-div {
     position: absolute;
-    top: 25px;
-    right: 30px;
-    font-size: 24px;
-    color: #000000;
+    top: 20px;
+    right: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(41, 0, 0, 0);
+    cursor: pointer;
+}
+
+.svg-sbest-path {
+    fill: white;
+    transition: fill 0.1s ease-in;
+    stroke: black; 
+    stroke-width: 2px; 
+    stroke-linejoin: round; 
+}
+
+#heart-checkbox:checked + label .svg-sbest-path {
+    fill: rgb(172, 57, 57); 
+}
+
+#heart-checkbox-2:checked + label .svg-sbest-path {
+    fill: rgb(172, 57, 57); 
 }
 
 
-/* Colors */
+
+#heart-checkbox-3:checked + label .svg-sbest-path {
+    fill: rgb(172, 57, 57); 
+}
+
 .color-black {
-    background-color: #000;
+    background-color: #0C0C0C;
 }
 
 .color-blue {
-    background-color: #6C7A89;
+    background: #7DC3EB;
 }
 
 .color-green {
-    background-color: #4CAF50;
+    background: #748C70;
 }
 
 .color-purple {
-    background-color: #A569BD;
+    background: #D0A5EA;
+
 }
 
 .color-olive {
-    background-color: #808000;
+    background: #909225;
+
+}
+
+.color-blue-dark {
+    background: #19418E;
 }
 
 .color-beige {
     background-color: #D3B48F;
+}
+
+.img-produ-card {
+    width: 387px;
+}
+
+.selers-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .price {
+        margin: 0;
+        color: #0C0C0C;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.4px;
+        text-align: left;
+
+    }
+    p {
+        margin: 0;
+    }
 }
