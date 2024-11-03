@@ -137,22 +137,24 @@ ul {
 
 .dropdown-menu {
     display: none;
-    position: absolute;
-    top: 30px;
-    right: -886px;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    left: 0;
     background-color: white;
     padding: 20px;
     z-index: 500;
-    width: 1450px;
+    width: 100vw;
     border: none;
     padding-top: 60px;
     padding-bottom: 61px;
-    padding-left: 135px;
 }
 
 
 .header__nav-item--dropdown:hover .dropdown-menu {
     display: flex;
+    justify-content: center;
+    padding-right: 30px;
 
 }
 
@@ -231,23 +233,24 @@ ul {
 
 .dropdown-menu-2 {
     display: none;
-    position: absolute;
-    top: 30px;
-    right: -792px;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    left: 0;
     background-color: white;
     padding: 20px;
     z-index: 500;
-    width: 1450px;
+    width: 100vw;
     border: none;
     padding-top: 60px;
-    padding-bottom: 57px;
-    padding-left: 135px;
-    border-radius: 6px;
+    padding-bottom: 58px;
 }
 
 .header__nav-item--dropdown:hover .dropdown-menu-2 {
     display: flex;
+    justify-content: center;
     text-align: left;
+    padding-right: 28px;
 }
 
 .dropdown-category a,
@@ -282,18 +285,17 @@ ul {
 
 .dropdown-menu-3 {
     display: none;
-    position: absolute;
-    top: 30px;
-    right: -559px;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    left: 0;
     background-color: white;
     padding: 20px;
     z-index: 500;
-    width: 1450px;
+    width: 100vw;
     border: none;
     padding-top: 60px;
-    padding-bottom: 57px;
-    padding-left: 135px;
-    border-radius: 6px;
+    padding-bottom: 58px;
 }
 
 .header__nav-item:hover,
@@ -304,6 +306,8 @@ ul {
 .header__nav-item--dropdown:hover .dropdown-menu-3 {
     display: flex;
     text-align: left;
+    justify-content: center;
+    padding-right: 24px;
 }
 .dropdown-category-3 {
     padding-right: 320px;
@@ -311,18 +315,17 @@ ul {
 
 .dropdown-menu-4 {
     display: none;
-    position: absolute;
-    top: 30px;
-    right: -438px;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    left: 0;
     background-color: white;
     padding: 20px;
     z-index: 500;
-    width: 1450px;
+    width: 100vw;
     border: none;
     padding-top: 60px;
     padding-bottom: 88px;
-    padding-left: 135px;
-    border-radius: 6px;
 }
 
 .header__nav-item:hover,
@@ -333,6 +336,8 @@ ul {
 .header__nav-item--dropdown:hover .dropdown-menu-4 {
     display: flex;
     text-align: left;
+    justify-content: center;
+    padding-left: 40px;
 }
 .dropdown-category-4 {
     padding-right: 232px;
