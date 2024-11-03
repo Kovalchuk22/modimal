@@ -2,11 +2,13 @@
     width: 1224px;
     padding: 0 15px;
     margin: 0 auto;
+    display: flex;
+    justify-content: end;
 }
-.Sustainability_backround{
-    background-image: url('../../img/bavovna.png');
-    background-position: center;
 
+.Sustainability_backround {
+    background-image: url('../../img/11zon_resized.png');
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -14,23 +16,20 @@
 
 .Sustainabilityh2 {
     color: #272F25;
-    font-family: Gill Sans MT;
+    font-family: Montserrat;
     font-size: 20px;
-    font-style: italic;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 36px;
-    text-align: right;
+    text-align: left;
     padding: 0;
     margin: 0;
-    width: 390px;
+    width: 495px;
     word-wrap: break-word;
+    padding-top: 359px;
+    padding-bottom: 12px;
+    margin: 0;
+    text-transform: capitalize;
 
-    &:first-child {
-        padding-top: 240px;
-        margin-top: 70px;
-    }
-
-    
 }
 
 .Sustainabilitybutton {
@@ -43,13 +42,14 @@
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-   
+
+
+
 }
+
 .Sustainabilitydiv {
-    padding-bottom: 100px;
     flex-direction: column;
     align-items: flex-end;
     display: flex;
-    margin-right: 108px; 
+    padding-bottom: 43px;
 }
-
