@@ -1,0 +1,233 @@
+.container {
+    width: 1224px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.section1-nav-div {
+    padding-top: 32px;
+    padding-bottom: 48px;
+    display: flex;
+
+    a {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32.4px;
+        text-align: center;
+        text-transform: capitalize;
+        padding: 0 16px;
+
+        &:first-child {
+            padding-left: 0;
+        }
+    }
+
+    p {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32.4px;
+        text-align: center;
+        color: #606060;
+        padding: 0 8px;
+        margin: 0;
+    }
+}
+
+.bread11 {
+    color: #748C70;
+}
+
+.img-box-card1 {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 150px;
+    height: 512px;
+    overflow-y: scroll;
+    gap: 16px;
+    padding-right: 16px;
+}
+
+.img-box-card1-div {
+    display: flex;
+    gap: 16px;
+    padding-right: 20px;
+}
+
+.img-card-1-item {
+    width: 427px;
+    height: 512px;
+}
+
+.div-card1-box {
+    display: flex;
+}
+
+.title-box-card1-div {
+
+    h2 {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 44.8px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: black;
+        text-transform: capitalize;
+        padding-bottom: 32px;
+    }
+}
+
+.title-box-card1-p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+.color-options {
+    padding-bottom: 64px;
+
+    p {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28.8px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: black;
+        padding-bottom: 12px;
+        margin: 0;
+    }
+}
+
+.circle-card1 {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.color1-card1 {
+    background: #CA2929;
+    margin-right: 8px;
+}
+
+.color2-card1 {
+    background: #ffffff;
+    border: solid 1px black;
+}
+
+.color-options-color {
+    display: flex;
+}
+
+.size-guide {
+    display: flex;
+    justify-content: end;
+}
+
+.size-guide {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #868686;
+    text-transform: capitalize;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.accordion-button {
+    border: solid 1px #dfdfdf;
+    padding: 8px 0;
+    padding-right: 20px;
+    padding-left: 15px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    color: currentColor;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: currentColor;
+}
+
+.accordion-button::after {
+    color: black;
+}
+
+.accordion-button:not(.collapsed)::after {
+    color: black;
+}
+
+.size-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.size-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.accordion-body {
+    padding: 0;
+}
+
+.accordion-header {
+    padding: 0 !important;
+    padding-bottom: 5px !important;
+}
+
+.button-add {
+    background: #5A6D57;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    width: 100%;
+    height: 40px;
+    border: none;
+}
+.button-div-card1 {
+    padding-top: 10px;
+    padding-bottom: 24px;
+}
+.div-card1-box {
+    padding-bottom: 32px;
+}

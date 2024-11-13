@@ -1,13 +1,13 @@
-.modiweek_container{
-    width: 1224px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
+
 .modiweek_mis{
     text-align: center;
 }
+.mySwiper {
+  width: 100%;
+  height: 600px;
+}
 .swiper-wrapper {
-    display: flex;
+   /* display: flex;*/
   transition: transform 0.3s ease;
   padding-right: 20px;
   margin-top: 24px;
