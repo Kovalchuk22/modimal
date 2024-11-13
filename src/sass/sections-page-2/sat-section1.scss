@@ -1,0 +1,61 @@
+.breadcrumb a {
+    color: #6f6f6f;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.content {
+    display: flex;
+    gap: 40px;
+}
+
+
+
+.shop-the-look {
+    max-width: 300px;
+    display: flex;
+}
+
+.shop-the-look h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.shop-the-look p {
+    font-size: 16px;
+    color: #6f6f6f;
+   
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 24px;
+}
+
+
+.item-category, .item-price {
+    font-size: 14px;
+    color: #6f6f6f;
+}
+
+.colors {
+    display: flex;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.color {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.color.black {
+    background-color: #000;
+}
+
+.color.olive {
+    background-color: #a6b787;
+}
