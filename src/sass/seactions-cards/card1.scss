@@ -224,10 +224,297 @@ a {
     height: 40px;
     border: none;
 }
+
 .button-div-card1 {
     padding-top: 10px;
     padding-bottom: 24px;
 }
+
 .div-card1-box {
     padding-bottom: 32px;
+}
+
+
+.but::after {
+    display: none;
+}
+
+.but::before {
+    position: absolute;
+    left: 1;
+    right: 20px;
+    content: '+';
+    font-size: 25px;
+    transition: transform 0.5s ease;
+}
+
+
+.box-div-card-last-down {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-div-card-last-down {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.but {
+    background: #F0F2EF;
+    padding: 24px 0;
+    padding-left: 20px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.iteam-card-down {
+    width: 590px;
+    border: none;
+}
+
+.but[aria-expanded="true"] {
+    background: #F0F2EF;
+}
+
+.but,
+.body-card1-1 {
+    background: #F0F2EF;
+}
+
+.accordion-header {
+    padding: 0 !important;
+    border: none;
+}
+
+.body-card1-1 {
+    padding: 24px;
+    border: 1px solid #CBCBCB;
+
+    p {
+        margin: 0;
+        text-transform: capitalize;
+    }
+}
+
+.favric {
+    padding-bottom: 24px;
+    color: #748C70;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.but-2::before {
+    display: none;
+}
+
+.bef-buuton-card1 {
+    padding-bottom: 24px;
+}
+
+.button-last-card1-1 {
+    border: none;
+    background-color: white;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: capitalize;
+}
+
+.button-last-card1-21 {
+    width: 94px;
+    margin-right: 12px;
+}
+
+.button-last-card1-22 {
+    width: 189px;
+    margin-right: 12px;
+}
+
+.button-last-card1-23 {
+    width: 183px;
+}
+
+
+
+
+.product-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card {
+    padding-right: 20px;
+    text-align: center;
+    position: relative;
+
+    &:last-child {
+        padding-right: 0px;
+    }
+}
+
+.p1-youmayal {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44.8px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #0C0C0C;
+    text-align: start;
+    justify-content: start;
+    text-transform: capitalize;
+    margin: 0;
+    padding-bottom: 32px;
+}
+
+.last-section-card1 {
+    padding-top: 33px;
+}
+
+
+
+.sellers-subtitle {
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+
+    margin: 10px 0 5px;
+}
+
+.sellers-text {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+
+}
+
+
+.color-options {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+
+}
+
+.color-circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: none;
+}
+
+.heart-icon-div {
+    position: absolute;
+    top: 20px;
+    right: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(41, 0, 0, 0);
+    cursor: pointer;
+}
+
+.svg-sbest-path {
+    fill: white;
+    transition: fill 0.1s ease-in;
+    stroke: black;
+    stroke-width: 2px;
+    stroke-linejoin: round;
+}
+
+#heart-checkbox:checked+label .svg-sbest-path {
+    fill: rgb(172, 57, 57);
+}
+
+#heart-checkbox-2:checked+label .svg-sbest-path {
+    fill: rgb(172, 57, 57);
+}
+
+
+
+#heart-checkbox-3:checked+label .svg-sbest-path {
+    fill: rgb(172, 57, 57);
+}
+
+.color-black {
+    background-color: #0C0C0C;
+}
+
+.color-blue {
+    background: #7DC3EB;
+}
+
+.color-green {
+    background: #748C70;
+}
+
+.color-purple {
+    background: #D0A5EA;
+
+}
+
+.color-olive {
+    background: #909225;
+
+}
+
+.color-blue-dark {
+    background: #19418E;
+}
+
+.color-beige {
+    background-color: #D3B48F;
+}
+.color-orange {
+    background: #CA6D29;
+}
+.img-produ-card {
+    width: 387px;
+}
+
+.selers-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .price {
+        margin: 0;
+        color: #0C0C0C;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.4px;
+        text-align: left;
+
+    }
+
+    p {
+        margin: 0;
+    }
 }
