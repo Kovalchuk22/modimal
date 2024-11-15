@@ -20,9 +20,11 @@ a {
     display: flex;
 
 }
+
 .bread11 {
     color: #748C70;
 }
+
 .section1-nav-div {
     padding-top: 32px;
     padding-bottom: 48px;
@@ -224,6 +226,7 @@ a {
 #heart-checkbox-6:checked+label .svg-sbest-path {
     fill: rgb(172, 57, 57);
 }
+
 .color-black {
     background-color: #0C0C0C;
 }
@@ -245,6 +248,7 @@ a {
     background: #909225;
 
 }
+
 .color-orange {
     background: #CA6D29;
 
@@ -294,4 +298,126 @@ a {
     background-color: white;
     border: 1px solid #5A6D57;
     padding: 8px 54px;
+}
+
+.item-acor-1 {
+    width: 392px;
+    margin-bottom: 16px;
+    border: none;
+}
+
+.header-of-cardinform1 {
+    height: 48px;
+    color: white;
+    background: #748C70;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-transform: capitalize;
+    border-radius: 0 0 0 0;
+}
+
+.header-of-cardinform1::after {
+    display: none;
+}
+
+.header-of-cardinform1::before {
+    position: absolute;
+    left: 1;
+    right: 20px;
+    content: '+';
+    font-size: 25px;
+    transition: transform 0.5s ease;
+}
+
+.header-of-cardinform1[aria-expanded="true"]::before {
+    position: absolute;
+    left: 1;
+    right: 20px;
+    content: '-';
+    font-size: 30px;
+    transition: transform 0.5s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+    color: #748C70;
+}
+
+.item-acor-1[aria-expanded="true"] {
+    border: solid 1px #748C70;
+}
+
+.header-of-cardinform1:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.filter-options {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+.checkbox-container {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    align-items: center;
+
+}
+
+.checkbox-container input {
+    display: none;
+}
+
+.custom-checkbox {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #748C70;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.checkbox-container input:checked+.custom-checkbox {
+    background-color: #748C70;
+}
+.checkbox-container {
+    align-items: center;
+}
+.color-circlee {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+.custom-checkbox {
+    margin-right: 5px;
+}
+.color-red {
+    background: #CA2929;
+}
+
+.color-purple {
+    background: #D0A5EA;
+}
+.color-pink {
+    background: #CA2980;
+}
+.color-light-blue {
+    background: #7DC3EB;
+}
+.color-white {
+    background-color: white;
+    border: solid 1px black;
 }
