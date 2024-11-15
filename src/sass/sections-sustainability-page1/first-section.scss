@@ -1,0 +1,50 @@
+.header__container {
+    width: 1224px !important;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.container-1 {
+    width: 1224px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.bread11 {
+    color: #748C70;
+}
+
+.section1-nav-div {
+    padding-top: 32px;
+    padding-bottom: 48px;
+    display: flex;
+
+    a {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32.4px;
+        text-align: center;
+        text-transform: capitalize;
+        padding: 0 16px;
+
+        &:first-child {
+            padding-left: 0;
+        }
+    }
+
+    p {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32.4px;
+        text-align: center;
+        color: #606060;
+        padding: 0 8px;
+        margin: 0;
+    }
+}
