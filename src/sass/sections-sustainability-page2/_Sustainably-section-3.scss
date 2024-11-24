@@ -1,11 +1,5 @@
 .gallery-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Дві колонки однакової ширини */
-    grid-template-rows: repeat(2, auto);   /* Два ряди */
-    gap: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+   
   }
   
   .gallery-item {
@@ -13,6 +7,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 50%;
+    padding-top: 48px;
   }
   
   .gallery-item img {
@@ -21,6 +17,7 @@
     display: block;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
   }
   
   .caption {
@@ -30,14 +27,23 @@
     padding: 5px 10px;
     width: 100%;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 5px;
   }
   
   .note {
     grid-column: span 2; /* Розтягується на обидві колонки */
     margin-top: 20px;
-    font-size: 12px;
+    font-size: 20px;
     color: #777;
-    text-align: center;
+    text-align: left;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .gallery-top, .gallery-botom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    
   }
