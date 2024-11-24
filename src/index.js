@@ -48,3 +48,18 @@ checkbox.addEventListener('change', function() {
     submitButton.disabled = !this.checked;
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  const menuButton = document.querySelector(".buut-button");  
+  const closeButton = document.getElementById("close-menu");
+  const mobileMenu = document.getElementById("mobile-menu"); 
+
+  // Відкриття мобільного меню
+  menuButton.addEventListener("click", function () {
+    mobileMenu.classList.add("active");
+  });
+
+  // Закриття мобільного меню
+  closeButton.addEventListener("click", function () {
+    mobileMenu.classList.remove("active");
+  });
+});
