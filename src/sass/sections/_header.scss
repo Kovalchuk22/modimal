@@ -6,19 +6,23 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .header__logo-box {
     display: flex;
     flex-direction: column;
     justify-content: end;
     height: 47px;
 }
+
 ul {
     list-style: none;
 }
+
 .collect-a {
     text-decoration: none;
     color: currentColor;
 }
+
 .notification-bar {
     width: 100%;
     background-color: #5a6d57;
@@ -216,6 +220,7 @@ ul {
 
     }
 }
+
 .dropdown-img2 {
     p {
         font-family: Montserrat;
@@ -287,6 +292,7 @@ ul {
     text-align: left;
     color: #0C0C0C;
 }
+
 .dropdown-img2-2 {
     padding-right: 24px;
 }
@@ -317,6 +323,7 @@ ul {
     justify-content: center;
     padding-right: 24px;
 }
+
 .dropdown-category-3 {
     padding-right: 320px;
 }
@@ -347,18 +354,21 @@ ul {
     justify-content: center;
     padding-left: 40px;
 }
+
 .dropdown-category-4 {
     padding-right: 232px;
 }
+
 .gg-2 {
     display: none;
 }
+
 .header-close {
     display: none;
 }
 
 .mobile-menu {
-    display: none; 
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -368,25 +378,66 @@ ul {
     z-index: 1000;
     flex-direction: column;
     padding: 20px;
-  }
-  
-  .mobile-menu.active {
+}
+
+.mobile-menu.active {
     display: flex;
-  }
-  
-  .close-menu {
-    position: absolute;
-    top: 48px;
-    left: 25px;
+}
+
+.close-menu {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     border: none;
     font-size: 29px;
-  }
-  .search__svg:active {
-    position: absolute;
-    top: 60px;
-    left: 55px;
-  }
-  .header__logo-img {
+}
+.gg-1222 {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    font-size: 29px;
+}
+
+.header__logo-img {
     margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.accordion-body-header {
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+    .style-mobil-list {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25.2px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding-top: 16px;
+        color: #404040;
+    }
+}
+.accordion-item-header .accordion-button-header[aria-expanded="true"] {
+    background-color: transparent !important;
+    color:  #0C0C0C !important;
   }
+  .accordion-button-header {
+    box-shadow: none !important; 
+  }
+  .accordion-item-header {
+    border: none;
+}
+
