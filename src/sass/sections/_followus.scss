@@ -54,3 +54,50 @@
     line-height: 44.8px;
     text-align: start;
 }
+
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+    .gallery-item {
+        overflow: hidden;
+    }
+}
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+    .gallery{
+        left: 0;
+    }
+    .gallery-item {
+        overflow: hidden;
+    }
+    
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+ 
+ .item1 {
+    display: none;
+}
+.gallery{
+    left: 0;
+}
+.gallery-item {
+    overflow: hidden;
+}
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 430px) {
+ 
+ .item1 {
+    display: none;
+}
+.gallery{
+    left: 0;
+}
+.gallery-item {
+    overflow: hidden;
+}
+}
+

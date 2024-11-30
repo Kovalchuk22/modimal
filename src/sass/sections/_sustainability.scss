@@ -53,3 +53,60 @@
     display: flex;
     padding-bottom: 43px;
 }
+
+
+@media (max-width: 1199px) {
+    .Sustainability_container {
+        width: 800px !important;
+        padding: 0 5px !important;
+    }
+}
+@media (max-width: 900px) {
+    .Sustainability_container {
+        width: 700px !important;
+        padding: 0 20px !important;
+    }
+
+    .Sustainability_backround {
+        background-position: 20%;
+        background-size: cover;
+    }
+    .Sustainabilitydiv{
+        padding-bottom: 43px;
+        padding-right: 70px;
+    }
+}
+ 
+  
+@media (max-width: 400px) {
+    .Sustainability_container {
+        width: 100% !important;
+        padding: 0 20px !important;
+    }
+    .Sustainability_backround {
+        background-position: 25%;
+        background-size: cover;
+    }
+    .Sustainabilitydiv h2 {
+        color: #272F25;
+        font-family: Montserrat;
+        font-size: 14px;
+        line-height: 40px;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+        word-wrap: break-word;
+        padding-top: 35px;
+        padding-bottom: 12px;
+        margin: 0;
+        text-transform: capitalize;
+
+    }
+  
+    .Sustainabilitydiv{
+        padding-bottom: 43px;
+        padding-right: 70px;
+    }
+  
+  }
+  
