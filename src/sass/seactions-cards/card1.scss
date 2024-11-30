@@ -1,4 +1,4 @@
-.container {
+.container-fg {
     width: 1224px;
     margin: 0 auto;
 }
@@ -520,5 +520,102 @@ a {
 
     p {
         margin: 0;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .container-fg {
+        width: 900px !important;
+        padding: 0 20px !important;
+    }
+    .div-card1-box {
+        flex-direction: column;
+    }
+    .img-box-card1-div {
+        justify-content: left;
+        padding: 0;
+    }
+    .container-1111111111111 {
+        width: 900px !important;
+        padding: 0 20px !important;
+    }
+    .color-options {
+        padding-bottom: 10px;
+    }
+    .title-box-card1-div {
+        padding-top: 30px;
+    }
+    .img-box-card1 {
+        width: 180px;
+    }
+    .box-div-card-last-down {
+        justify-content: center;
+    }
+    .iteam-card-down {
+        width: 100%;
+    }
+    .button-add {
+        height: 50px;
+    }
+    .product-div {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    } 
+    .product-card {
+        padding-right: 0;
+        &:nth-child(3) {
+            display: none;
+        }
+    }
+}
+
+
+@media (max-width: 900px) {
+    .container-fg {
+        width: 650px !important;
+        max-width: 766px !important;
+    }
+    .container-1111111111111 {
+        width: 766px !important;
+    }
+    .product-card {
+        width: 300px;
+        overflow: hidden;
+    }
+    .img-produ-card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 668px) {
+    .container-fg {
+        width: 100% !important;
+        padding: 0 10px !important;
+        justify-content: center;
+    }
+    .img-box-card1 {
+        display: none;
+    }
+    .img-box-card1-div {
+        justify-content: center;
+    }
+    .product-div {
+        justify-content: space-around;
+    }
+    .product-card {
+        width: 250px;
+    }
+}
+@media (max-width: 550px) {
+    .container-fg {
+        width: 100% !important;
+        padding: 0 20px !important;
+        justify-content: center;
+    }
+    .product-card {
+        width: 100%;
     }
 }
