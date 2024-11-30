@@ -1,10 +1,4 @@
-.Sustainability_container {
-    width: 1224px;
-    padding: 0 15px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: end;
-}
+
 
 .Sustainability_backround {
     background-image: url('/img/11zon_resized.png');
@@ -77,36 +71,20 @@
     }
 }
  
-  
-@media (max-width: 400px) {
-    .Sustainability_container {
-        width: 100% !important;
-        padding: 0 20px !important;
+  @media (max-width:575px) {
+    .Sustainabilityh2{
+        max-width: 100%;
     }
+  }
+@media (max-width: 400px) {
+
     .Sustainability_backround {
         background-position: 25%;
         background-size: cover;
     }
-    .Sustainabilitydiv h2 {
-        color: #272F25;
-        font-family: Montserrat;
-        font-size: 14px;
-        line-height: 40px;
-        text-align: left;
-        padding: 0;
-        margin: 0;
-        word-wrap: break-word;
-        padding-top: 35px;
-        padding-bottom: 12px;
-        margin: 0;
-        text-transform: capitalize;
-
-    }
   
-    .Sustainabilitydiv{
-        padding-bottom: 43px;
-        padding-right: 70px;
-    }
+  
+   
   
   }
   
