@@ -39,6 +39,15 @@ const swiper = new Swiper(".mySwiper", {
           prevEl: ".swiper-button-prev",
         },
       },
+      1100: {
+        slidesPerView: 3, // 3 слайди на екранах до 1300px
+      },
+      900: {
+        slidesPerView: 2, // 2 слайди на екранах до 900px
+      },
+      600: {
+        slidesPerView: 1, // 1 слайд на дуже вузьких екранах
+      },
     },
 });
 const checkbox = document.getElementById('flexCheckDefault');
