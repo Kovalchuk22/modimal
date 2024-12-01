@@ -1,61 +1,102 @@
-.breadcrumb a {
-    color: #6f6f6f;
-    text-decoration: none;
-    font-size: 14px;
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
 .content {
     display: flex;
-    gap: 40px;
-}
-
-
-
-.shop-the-look {
-    max-width: 300px;
-    display: flex;
-}
-
-.shop-the-look h2 {
-    font-size: 24px;
-    margin-bottom: 5px;
-}
-
-.shop-the-look p {
-    font-size: 16px;
-    color: #6f6f6f;
-   
-}
-
-.item {
-    display: flex;
-    align-items: center;
     flex-wrap: wrap;
-    margin-right: 24px;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.image img {
+    width: 100%;
+}
+
+.shop-section {
+    flex: 1;
+    margin-left: 128px;
+}
+
+.shop-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.shop-section p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.items {
+    display: flex;
+    gap: 20px;
 }
 
 
-.item-category, .item-price {
-    font-size: 14px;
-    color: #6f6f6f;
+
+.item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.price {
+    font-weight: bold;
+    margin-top: 5px;
 }
 
 .colors {
     display: flex;
-    gap: 8px;
-    margin-top: 5px;
+    gap: 5px;
+    margin-top: 10px;
 }
 
 .color {
-    width: 12px;
-    height: 12px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
+    border: 1px solid #333;
 }
 
 .color.black {
-    background-color: #000;
+    background-color: black;
 }
 
-.color.olive {
-    background-color: #a6b787;
+.color.green {
+    background-color: #8fbc8f;
+}
+
+.woman-in-white{
+    width: 100%;
+}
+
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+   .shop-section{
+    justify-content: center;
+   }
+}
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+ 
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+ 
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+  
+ 
 }
